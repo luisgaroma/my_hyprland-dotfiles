@@ -28,7 +28,7 @@ sudo pacman -S hyprland waybar kitty rofi swaync fish matugen fastfetch btop cav
     xdg-desktop-portal-hyprland
 ```
 
-## Instalación en una PC nueva
+## Instalación
 
 ```bash
 git clone https://github.com/luisgaroma/my_hyprland-dotfiles.git
