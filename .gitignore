@@ -1,0 +1,4 @@
+.config/hypr/current_wallpaper
+**/cache/
+**/*.cache
+**/*.log
