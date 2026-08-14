@@ -2,6 +2,8 @@
 
 Mi configuración personal de Hyprland en CachyOS/Arch Linux, basada originalmente en [arch-hyprland](https://github.com/binnewbs/arch-hyprland) de binnewbs (a su vez basado en los scripts de JaKooLit), con ajustes propios para Hyprland 0.56+.
 
+![Screenshot](20260806_18h22m59s_grim.png)
+
 ## Qué incluye
 
 - `hypr` — configuración de Hyprland (binds, animaciones, window rules, scripts)
