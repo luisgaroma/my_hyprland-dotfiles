@@ -43,3 +43,11 @@ output_path = '~/.config/spicetify/Themes/text/color.ini'
 input_path = '~/.config/matugen/templates/midnight-discord.css'
 output_path = '~/.config/vesktop/themes/matugen.css'
 
+[templates.obsidian]
+input_path = '~/.config/matugen/templates/obsidian-colors.css'
+output_path = '~/Notas obsidian/.obsidian/snippets/matugen.css'
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop-colors.theme'
+output_path = '~/.config/btop/themes/matugen.theme'
+post_hook = 'pkill -USR2 btop || true'

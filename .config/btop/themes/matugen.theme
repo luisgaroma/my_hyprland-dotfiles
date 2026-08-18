@@ -1,89 +1,47 @@
-# Matugen template for btop
+theme[main_bg]="#0f1416"
+theme[main_fg]="#dee3e6"
+theme[title]="#86d1ea"
+theme[hi_fg]="#86d1ea"
+theme[selected_bg]="#004e5f"
+theme[selected_fg]="#b3ebff"
+theme[inactive_fg]="#899296"
+theme[graph_text]="#dee3e6"
+theme[meter_bg]="#40484b"
+theme[proc_misc]="#c1c4eb"
 
-
-# Colors should be in 6 or 2 character hexadecimal or single spaced rgb decimal: "#RRGGBB", "#BW" or "0-255 0-255 0-255"
-# example for white: "#ffffff", "#ff" or "255 255 255".
-
-# All graphs and meters can be gradients
-# For single color graphs leave "mid" and "end" variable empty.
-# Use "start" and "end" variables for two color gradient
-# Use "start", "mid" and "end" for three color gradient
-
-# Main background, empty for terminal default, need to be empty if you want transparent background
-theme[main_bg]=""
-
-# Main text color
-theme[main_fg]="#dfe3e7"
-
-# Title color for boxes
-theme[title]="#8fcff3"
-
-# Highlight color for keyboard shortcuts
-theme[hi_fg]="#b5c9d7"
-
-# Background color of selected item in processes box
-theme[selected_bg]="#8fcff3"
-
-# Foreground color of selected item in processes box
-theme[selected_fg]="#003549"
-
-# Color of inactive/disabled text
-theme[inactive_fg]="#c0c7cd"
-
-# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#c9c1ea"
-
-# Cpu box outline color
-theme[cpu_box]="#8a9297"
-
-# Memory/disks box outline color
-theme[mem_box]="#8a9297"
-
-# Net up/down box outline color
-theme[net_box]="#8a9297"
-
-# Processes box outline color
-theme[proc_box]="#8a9297"
-
-# Box divider line and small boxes line color
-theme[div_line]="#41484d"
-
-# Temperature graph colors
-theme[temp_start]="#b5c9d7"
-theme[temp_mid]="#8fcff3"
+theme[cpu_box]="#899296"
+theme[mem_box]="#899296"
+theme[net_box]="#899296"
+theme[proc_box]="#899296"
+theme[div_line]="#40484b"
+theme[temp_start]="#c1c4eb"
+theme[temp_mid]="#b3cad4"
 theme[temp_end]="#ffb4ab"
 
-# CPU graph colors
-theme[cpu_start]="#b5c9d7"
-theme[cpu_mid]="#8fcff3"
-theme[cpu_end]="#ffb4ab"
+theme[cpu_start]="#86d1ea"
+theme[cpu_mid]="#c1c4eb"
+theme[cpu_end]="#b3cad4"
 
-# Mem/Disk free meter
-theme[free_start]="#b5c9d7"
-theme[free_mid]=""
-theme[free_end]="#364955"
+theme[free_start]="#86d1ea"
+theme[free_mid]="#c1c4eb"
+theme[free_end]="#b3cad4"
 
-# Mem/Disk cached meter
-theme[cached_start]="#c9c1ea"
-theme[cached_mid]=""
-theme[cached_end]="#484264"
+theme[cached_start]="#b3cad4"
+theme[cached_mid]="#c1c4eb"
+theme[cached_end]="#86d1ea"
 
-# Mem/Disk available meter
-theme[available_start]="#8fcff3"
+theme[available_start]="#899296"
 theme[available_mid]=""
-theme[available_end]="#004c68"
+theme[available_end]=""
 
-# Mem/Disk used meter
-theme[used_start]="#ffb4ab"
-theme[used_mid]=""
-theme[used_end]="#93000a"
+theme[used_start]="#86d1ea"
+theme[used_mid]="#c1c4eb"
+theme[used_end]="#b3cad4"
 
-# Download graph colors
-theme[download_start]="#b5c9d7"
-theme[download_mid]="#8fcff3"
-theme[download_end]="#c9c1ea"
+theme[download_start]="#86d1ea"
+theme[download_mid]="#c1c4eb"
+theme[download_end]="#b3cad4"
 
-# Upload graph colors
-theme[upload_start]="#b5c9d7"
-theme[upload_mid]="#8fcff3"
-theme[upload_end]="#c9c1ea"
+theme[upload_start]="#b3cad4"
+theme[upload_mid]="#c1c4eb"
+theme[upload_end]="#86d1ea"
